@@ -1,9 +1,9 @@
 # AnsibleTowerInstallation
 
-# create instance with 2 core and 4 GB RAM on any cloud provider 
-# ssh into that machine
-# lets install latest ansible with below commands 
-# lets change user with 
+ create instance with 2 core and 4 GB RAM on any cloud provider 
+ ssh into that machine
+ lets install latest ansible with below commands 
+ lets change user with 
 sudo su
 
 # Install Ansible 2.4
@@ -17,7 +17,7 @@ sudo su
 
 ansible --version 
 
-Now lets install latest ansible tower 
+# Now lets install latest ansible tower 
 
 Read through this doc http://docs.ansible.com/ansible-tower/latest/html/quickinstall/prepare.html
 
@@ -62,7 +62,7 @@ rabbitmq_use_long_name=false
 
 --------------------------------------
 
-execute setup.sh now 
+# execute setup.sh now 
 
 root@instance-2:/home/ubuntu/ansible-tower-setup-3.2.3# ./setup.sh
 
